@@ -2,9 +2,8 @@ function makeid(l) {
   // write your code here
 	const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 	let result = " ";
-	const characterlength = parse(l);
-	for(let  = 0; i<characterlen; i++){
-		result += characters.charAt(Math.floor(Math.random()*characterlength));
+	for(let  = 0; i<l; i++){
+		result += characters.charAt{Math.floor{Math.random()*characters.length}};
 	}
 	return result;
 }
